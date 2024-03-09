@@ -1,0 +1,250 @@
+body{
+    /* background-color: rgb(223, 81, 81); */
+    background-color: black;
+    margin: 25px;
+    height: 500px;
+}
+
+
+.Template{
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+
+
+.Flag{
+    height: 240px;
+    opacity: 0.5;
+    box-shadow: 1px 1px 10px 10px rgb(219, 217, 217);
+}
+
+.Flag:hover{
+    box-shadow: 1px 100px 500cap 7px white;
+    opacity: 1;
+}
+
+
+
+.RussiaTemplate{
+    position: relative;
+    left:20px
+}
+
+.IndiaTemplate{
+    position: relative;
+    left:500px;
+    top:-316.5px;
+}
+
+.TurkeyTemplate{
+    position: relative;
+    left:1000px;
+    top:-633.25px;
+}
+
+.SwedenTemplate{
+    position: relative;
+    top:-600px;
+    left:20px;
+
+}
+
+.BelgiumTemplate{
+    position: relative;
+    top: -916px;
+    left: 500px;
+}
+
+.GreeceTemplate{
+    position: relative;
+    top: -1240px;
+    left: 1000px;
+}
+
+.first,.sec,.third{
+    height: 80px;
+    width: auto;
+    /* border: 0.1px solid blueviolet; */
+}
+
+.RussiaFlag>.first{
+    background-color: white;
+}
+.RussiaFlag>.sec{
+    background-color: blue;
+}
+.RussiaFlag>.third{
+    background-color: firebrick;
+}
+
+.IndiaFlag>.first{
+    background-color: orange;
+}
+.IndiaFlag>.sec{
+    background-color: white;
+    position: relative;
+}
+.IndiaFlag>.third{
+    background-color: green;
+}
+
+
+.BelgiumFlag>.first{
+    height: 240px;
+    width: 133px;
+    background-color: black;
+    position: relative;
+}
+.BelgiumFlag>.sec{
+    height: 240px;
+    width: 133px;
+    background-color: yellow;
+    position: relative;
+    left: 133px;
+    top:-240px
+}
+.BelgiumFlag>.third{
+    height: 240px;
+    width: 133px;
+    background-color: darkorange;
+    position: relative;
+    left: 266px;
+    top:-480px;
+}
+
+
+
+img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left:160px;
+}
+
+
+.TurkeyFlag{
+    background-color: rgb(175, 36, 36);
+}
+
+.circle{
+    position: absolute;
+    height:150px;
+    width: 150px;
+    top: 40px;
+    left:50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.redcircle{
+    position: absolute;
+    height:115px;
+    width: 115px;
+    left:40px;
+    top:20px;
+    background-color: rgb(175, 36, 36);
+    border-radius: 50%;
+}
+
+.Content{
+    text-align: center;
+    color: black;
+    margin: 50px;
+}
+
+.Flag:hover ~ .Content{
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal; /* Or specify the desired weight here */
+    font-style: normal;
+}
+
+
+h1{
+    font-size: 30px;
+}
+
+.SwedenFlag{
+    background-color: yellow;
+}
+
+.square{
+    height: 101px;
+    width: 100px;
+    background-color: darkblue;
+}
+
+.s2{
+    position: relative;
+    top:38px
+}
+
+.square>.rec{
+    height: 101px;
+    width: 252px;
+    position: relative;
+    left: 148px;
+    background-color: darkblue;
+}
+
+
+.GreeceFlag{
+    background-color: white;
+}
+
+
+.block1{
+    width: 120px;
+    height: 136px;
+    position: relative;
+    background-color: white;
+}
+
+.block2{
+    width: auto;
+    height: 104px;
+}
+
+.blue{
+    height: 26.6px;
+    width: auto;
+    margin-top:25px;
+    background-color: skyblue;
+}
+
+
+.blocksquare{
+    width: 50px;
+    height: 55px;
+    background-color: skyblue;
+}
+
+.blueBox1{
+    position: relative;
+    left: 69px;
+}
+
+.bb1{
+    position: relative;
+    top: 18pt;
+}
+
+.block12{
+   width: 273px;
+   height: 132px;
+   position: relative;
+   left:122px;
+   top:-81.5pt;
+}
+
+.rect{
+    position: relative;
+    left: -4px;
+    top:-1px;
+    height: 27px;
+    width: 280px;
+    margin-bottom: 26px;
+    background-color: skyblue;
+}
